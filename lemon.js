@@ -2,7 +2,7 @@ setInterval(gameLoop, 1000/60)
 var counter = 0
 
 function gameLoop() {
-    counter++
+    n ++
     if(counter % 60 === 0) {
         console.log("output",counter    )
     }
